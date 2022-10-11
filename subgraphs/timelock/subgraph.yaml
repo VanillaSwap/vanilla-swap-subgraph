@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Timelock
-    network: bsc
+    network: mainnet
     source:
-      address: '0xA1f482Dc58145Ba2210bC21878Ca34000E2e8fE4'
+      address: '0x4eFB62cc1593006C336fAD987A8F25B3D473e8F8'
       abi: Timelock
-      startBlock: 704262
+      startBlock: 40127
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
